@@ -1,0 +1,49 @@
+header {
+    background: linear-gradient(90deg, #ffffff, #000000);
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.member-page {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.song-img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.youtube-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ff7ac8;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.youtube-link:hover {
+    opacity: 0.8;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
