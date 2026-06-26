@@ -1,0 +1,51 @@
+body {
+    font-family: "Hiragino Sans", sans-serif;
+    margin: 0;
+    background: #f7faff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #6aa6ff, #ff7ac8);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    background-color: #4DA8DA;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+nav {
+    background-color: #d9d9d9; 
+    padding: 20px;            
+    border-radius: 10px;      
+    text-align: center;       
+    margin: 20px auto;       
+    width: 80%;               
+}
+
+nav a {
+    background-color: #858585;
+    margin: 0 10px;
+    padding: 10px 20px;       
+    color: #46ffb5;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;       
+    display: inline-block;    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+p{
+    background: linear-gradient(90deg, #446dab, #FFFFFF);
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
