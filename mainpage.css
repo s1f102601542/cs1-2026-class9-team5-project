@@ -1,0 +1,27 @@
+body {
+    font-family: "Hiragino Sans", sans-serif;
+    margin: 0;
+    background: #f7faff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #6aa6ff, #ff7ac8);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    background-color: #4DA8DA;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+p{
+    background: linear-gradient(90deg, #314767, #FFFFFF);
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
