@@ -19,8 +19,32 @@ h2 {
     color: black;
 }
 
+nav {
+    background-color: #d9d9d9; 
+    padding: 20px;            
+    border-radius: 10px;      
+    text-align: center;       
+    margin: 20px auto;       
+    width: 80%;               
+}
+
+nav a {
+    background-color: #858585;
+    margin: 0 10px;
+    padding: 10px 20px;       
+    color: #46ffb5;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;       
+    display: inline-block;    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 p{
-    background: linear-gradient(90deg, #314767, #FFFFFF);
+    background: linear-gradient(90deg, #446dab, #FFFFFF);
     padding: 20px;
     text-align: center;
     color: black;
