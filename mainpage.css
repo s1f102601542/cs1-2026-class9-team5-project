@@ -55,3 +55,11 @@ p {
     box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
     position: relative;
 }
+p::before {
+    content: "🎵 ";
+    font-size: 22px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
