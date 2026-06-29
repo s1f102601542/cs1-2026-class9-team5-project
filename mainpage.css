@@ -20,32 +20,38 @@ h2 {
 }
 
 nav {
-    background-color: #d9d9d9; 
-    padding: 20px;            
-    border-radius: 10px;      
-    text-align: center;       
-    margin: 20px auto;       
-    width: 80%;               
+    background-color: #d9d9d9;
+    padding: 25px;              /* 少し広めに */
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
 }
 
 nav a {
     background-color: #858585;
-    margin: 0 10px;
-    padding: 10px 20px;       
+    margin: 8px 12px;           /* 上下にも余白を追加（縦の窮屈さが解消） */
+    padding: 15px 25px;         /* ボタンの高さを増やす */
     color: #46ffb5;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 5px;       
-    display: inline-block;    
+    border-radius: 6px;
+    display: inline-block;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-p{
+p {
     background: linear-gradient(90deg, #446dab, #FFFFFF);
-    padding: 20px;
+    padding: 25px;
     text-align: center;
-    color: black;
+    color: #333;
+    border-radius: 12px;              /* ポップな丸み */
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Hiragino Maru Gothic ProN", "Hiragino Sans", sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* カード風の影 */
+    position: relative;
 }
