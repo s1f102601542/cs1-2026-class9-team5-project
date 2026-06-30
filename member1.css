@@ -26,6 +26,11 @@ header {
 
 .description {
     margin: 20px 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    border-radius: 10px;
+    line-height: 1.8;
+    font-size: 1.1em;
 }
 
 .youtube-link {
