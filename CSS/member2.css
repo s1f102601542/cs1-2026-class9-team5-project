@@ -3,4 +3,5 @@ h2 {
     font-family: sans-serif;
     text-align: center;
     background: linear-gradient(50deg, #ffd800, #808080);
+    padding: 10px 10px 10px 10px;
 }
